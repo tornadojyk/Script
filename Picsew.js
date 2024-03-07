@@ -1,9 +1,14 @@
+/*
+
+Picsew：https://apps.apple.com/app/id1208145167
+
 [rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://gh-proxy.com/https://raw.githubusercontent.com/Guding88/Script/main/Picsew.js
 
 [MITM]
 hostname = buy.itunes.apple.com
 
+*/
 var guding = {
   "receipt": {
     "receipt_type": "Production",
